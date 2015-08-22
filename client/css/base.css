@@ -48,29 +48,6 @@ body {
 }
 
 
-@-webkit-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
-}
-.intro-loading {
-    position: fixed;
-    top: calc(50% - 250px);
-    left: calc(50% - 250px);
-    background-image: url('/img/loading.png');
-    height: 500px;
-    width: 500px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    z-index: 2;
-    -webkit-animation-name:             rotate;
-    -webkit-animation-duration:         3s;
-    -webkit-animation-iteration-count:  infinite;
-    -webkit-animation-timing-function: linear;
-}
 
 .intro-text {
     padding-top: 100px;
